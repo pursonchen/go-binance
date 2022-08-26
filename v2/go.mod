@@ -20,4 +20,4 @@ require (
 	gopkg.in/yaml.v2 v2.2.2 // indirect
 )
 
-replace github.com/adshao/go-binance/v2 v2.3.8 => github.com/pursonchen/go-binance/v2 v0.1
+
