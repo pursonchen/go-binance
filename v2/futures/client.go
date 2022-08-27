@@ -8,14 +8,14 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
+	"github.com/bitly/go-simplejson"
+	"github.com/pursonchen/go-binance/v2/common"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
 	"os"
 	"time"
-
-	"github.com/bitly/go-simplejson"
 )
 
 // SideType define side type of order

@@ -7,6 +7,7 @@ import (
 	"crypto/sha256"
 	"encoding/json"
 	"fmt"
+	"github.com/bitly/go-simplejson"
 	"github.com/pursonchen/go-binance/v2/common"
 	"io/ioutil"
 	"log"
