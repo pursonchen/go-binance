@@ -452,6 +452,11 @@ func (c *Client) NewListPricesService() *ListPricesService {
 	return &ListPricesService{c: c}
 }
 
+// NewGetUserAssetService init user asset service
+func (c *Client) NewGetUserAssetService() *GetUserAssetService {
+	return &GetUserAssetService{c: c}
+}
+
 // NewListBookTickersService init listing booking tickers service
 func (c *Client) NewListBookTickersService() *ListBookTickersService {
 	return &ListBookTickersService{c: c}

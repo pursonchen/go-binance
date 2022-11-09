@@ -19,11 +19,6 @@ func (s *GetUserAssetService) Asset(asset string) *GetUserAssetService {
 	return s
 }
 
-type NewGetUserAssetService struct {
-	c     *Client
-	asset *string
-}
-
 // Do send request
 func (s *GetUserAssetService) Do(ctx context.Context) (res []*UserAssetV3, err error) {
 	r := &request{
